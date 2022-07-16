@@ -10,12 +10,12 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define BASE    0
-#define MEDIA   6
 #define NAV     1
-#define MOUSE   2
-#define SYM     5
+#define SYM     2
 #define NUM     3
 #define FUN     4
+#define MOUSE   5
+#define MEDIA   6
 
 / {
 	behaviors {
