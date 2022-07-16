@@ -34,28 +34,28 @@
 
         base_layer {
             bindings = <
-   &kp Q      &kp W       &kp E         &kp R         &kp T           &kp Y       &kp U       &kp I       &kp O         &kp P
-   &hm LALT A &hm LCTRL S  &hm LGUI D   &hm LSHFT F   &lt NUM G       &lt NUM H   &hm LSHFT J &hm LGUI K &hm LCTRL L    &hm LALT SINGLE_QUOTE
-   &kp Z      &hm RALT X  &kp C         &kp V         &kp B           &kp N       &kp M       &kp COMMA   &kp DOT  &kp FSLH
-                          &kp LGUI    &lt NUM TAB     &kp BSPC        &kp SPACE   &lt NAV ENTER   &lt FUN ESC
+   &kp Q      &kp W        &kp E         &kp R         &kp T           &kp Y       &kp U          &kp I        &kp O         &kp P
+   &hm LALT A &hm LCTRL S  &hm LGUI D    &hm LSHFT F   &lt NUM G       &lt NUM H   &hm LSHFT J    &hm LGUI K   &hm LCTRL L   &hm LALT SINGLE_QUOTE
+   &kp Z      &hm RALT X   &kp C         &kp V         &kp B           &kp N       &kp M          &kp COMMA    &kp DOT       &kp FSLH
+                           &kp LGUI      &lt NUM TAB   &kp BSPC        &kp SPACE   &lt NAV ENTER  &lt FUN ESC
             >;
         };
 
         nav_layer {
             bindings = <
-   &none      &none       &none            &none           &none    &none       &none      &none     &none    &none
-   &kp LGUI    &kp LALT     &hm LCTRL GRAVE   &hm LSHFT BSLH   &none       &kp LEFT    &kp DOWN   &kp UP    &kp RIGHT  &none
-   &none      &none       &kp TILDE       &kp PIPE      &none       &none    &none    &none  &none &none
-                            &none       &kp DEL       &none       &none    &none    &none
+   &none      &none       &none            &none           &none    &none    &none     &none     &none      &none
+   &kp LGUI   &kp LALT    &hm LCTRL GRAVE  &hm LSHFT BSLH  &none    &none    &kp LEFT  &kp UP    &kp DOWN   &kp RIGHT
+   &none      &none       &kp TILDE        &kp PIPE        &none    &none    &none     &none     &none      &none
+                          &none            &kp DEL         &none    &none    &none     &none
             >;
         };
 
         mouse_layer {
             bindings = <
-   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 3 &bt BT_SEL 3 &bt BT_SEL 4  &none &none &none &none &bt BT_CLR
-   &kp LGUI    &kp LALT     &kp LCTRL    &kp LSHFT    &none       &none &none &none &none &none
-   &reset      &bootloader       &none       &none       &none       &none &none &none &none &out OUT_TOG
-                            &none       &none       &none       &none &none &none
+   &bt BT_SEL 0 &bt BT_SEL 1  &bt BT_SEL 3 &bt BT_SEL 3 &bt BT_SEL 4  &none &none &none &none &bt BT_CLR
+   &kp LGUI     &kp LALT      &kp LCTRL    &kp LSHFT    &none       &none &none &none &none &none
+   &reset       &bootloader   &none        &none       &none       &none &none &none &none &out OUT_TOG
+                              &none        &none       &none       &none &none &none
             >;
         };
 
@@ -70,10 +70,10 @@
 
         fun_layer {
             bindings = <
-   &kp F1 &kp F2 &kp F3    &kp F4    &kp F5             &kp F6 &kp F7 &kp F8 &kp F9 &kp F10
-   &hm LALT CAPSLOCK &kp LCTRL &kp LGUI &kp RSHFT  &none   &none     &kp LSHFT    &kp LGUI    &hm LCTRL F11     &hm LALT F12
-   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 3 &bt BT_SEL 3 &bt BT_SEL 4  &none &none &none &none &bt BT_CLR
-                  &kp K_LOCK  &none &none        &none     &none       &none
+   &kp F1            &kp F2         &kp F3       &kp F4       &kp F5           &kp F6    &kp F7        &kp F8      &kp F9          &kp F10
+   &hm LALT CAPSLOCK &kp LCTRL      &kp LGUI     &kp RSHFT    &none            &none     &kp LSHFT     &kp LGUI    &hm LCTRL F11   &hm LALT F12
+   &bt BT_SEL 0      &bt BT_SEL 1   &bt BT_SEL 3 &bt BT_SEL 3 &bt BT_SEL 4     &none     &none         &none       &none           &bt BT_CLR
+                     &kp K_LOCK  &none &none                                      &none     &none         &none
             >;
         };
 
