@@ -46,7 +46,7 @@
    &none      &none       &none            &none           &none        &none     &none     &none      &none      &none
    &kp LGUI   &kp LALT    &hm LCTRL GRAVE  &hm LSHFT BSLH  &none        &none     &kp LEFT  &kp UP     &kp DOWN   &kp RIGHT
    &none      &none       &kp TILDE        &kp PIPE        &kp INS      &kp HOME  &kp PG_UP  &kp PG_DN &kp END    &none   
-                          &none            &none         &none        &none     &kp DEL     &none
+                          &none            &none         &none          &none     &kp DEL     &none
             >;
         };
 
