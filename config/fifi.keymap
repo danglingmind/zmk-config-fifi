@@ -23,7 +23,7 @@
 			compatible = "zmk,behavior-hold-tap";
 			label = "homerow mods";
 			#binding-cells = <2>;
-			tapping_term_ms = <150>;
+			tapping_term_ms = <100>;
 			flavor = "tap-preferred";
 			bindings = <&kp>, <&kp>;
 		};
@@ -37,7 +37,7 @@
    &kp Q      &kp W        &kp E         &kp R         &kp T           &kp Y           &kp U          &kp I        &kp O         &kp P
    &hm LALT A &hm LCTRL S  &hm LGUI D    &hm LSHFT F   &lt NUM G       &lt NUM H       &hm LSHFT J    &hm LGUI K   &hm LCTRL L   &hm LALT SINGLE_QUOTE
    &kp Z      &hm RALT X   &kp C         &kp V         &kp B           &kp N           &kp M          &kp COMMA    &kp DOT       &kp FSLH
-                           &lt SYM LCAPS     &lt LGUI TAB   &kp SPACE        &lt NAV ENTER   &kp BSPC  &lt FUN ESC
+                           &lt SYM LCAPS     &hm LGUI TAB   &kp SPACE        &lt NAV ENTER   &kp BSPC  &lt FUN ESC
             >;
         };
 
